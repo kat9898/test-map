@@ -1,0 +1,21 @@
+.tableContainer {
+    margin-right: 15px;
+    margin-bottom: 20px;
+
+    .activeRow {
+        background-color: rgb(212, 212, 212);
+        cursor: pointer;
+    
+        &:hover {
+            background: rgb(212, 212, 212);
+    
+            td {
+                background: rgb(212, 212, 212) !important;
+            }
+        }
+    }
+    
+    .regularRow {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  display: flex;
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .App {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
